@@ -1,6 +1,6 @@
 name: Greetings
 
-on: workflow_dispatch
+on: [pull_request_target, issues]
 
 jobs:
   greeting:
