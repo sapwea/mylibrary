@@ -5,10 +5,10 @@ name: Python application
 
 on:
 workflow_dispatch
-  #push:
-    #branches: [ "main" ]
-  #pull_request:
-    #branches: [ "feature" ]
+  # push:
+    # branches: [ "main" ]
+  # pull_request:
+    # branches: [ "feature" ]
 
 permissions:
   contents: read
