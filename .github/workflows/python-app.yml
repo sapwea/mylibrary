@@ -4,8 +4,7 @@
 name: Python application
 
 on:
-  pull_request:
-   branches: [ "feature" ]
+  workflow_dispatch
 
 permissions:
   contents: read
