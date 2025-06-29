@@ -5,19 +5,19 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: [ "feature" ]
+    branches: [ "main" ]
   workflow_dispatch:
 jobs:
   build:
   runs-on: ubuntu-latest
-steps:
+  steps:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo Hello, this is a metapercept conf. file!'
-        - name: Run a multi-line script
+      - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-         - name: Welcome script
+      - name: Welcome script
         run:  echo Welcome to the Git. 
 
